@@ -10,11 +10,11 @@ class SalaryCalculation
 		System.out.printf("\nYour Daily Rate: %.2f",calcu);
 		calcu=caluc/8;
 		System.out.printf("\nYour Hourly Rate: %.2f",calcu);
-		caluc=asl-FTD;
+		calcu=asl-FTD;
 		calcu=calcu-MI;
 		calcu=FTD+(TE*calcu);
 		System.out.printf("\nYour Annual Tax Deduction: %.2f",calcu);
-		calcy=calcu/12;
+		calcu=calcu/12;
 		System.out.printf("\nYour Monthly Tax Deduction: %.2f",calcu);
 		calcu=(asl/12)-calcu;
 			System.out.printf("\nNet Pay: %.2f",calcu);
